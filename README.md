@@ -1,8 +1,5 @@
- # Karthik, Arvind(1002150231)
- # Kantamani, Bhavya Sri(1002118109)
- # Kanakamamidi, Harshitha(1002158028)
- # Kamisetty, Sai Smaran(1002191593)
- # Komma, Siva Saikumar Reddy(1002055567) 
+ # Arvind Karthik
+ # axk0231@mavs.uta.edu
 
 #  Conference Management System
 
