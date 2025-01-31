@@ -1,0 +1,62 @@
+.virtual-conference-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .conference-selection {
+    margin-bottom: 40px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .conference-details {
+    margin-top: 20px;
+  }
+  
+  .live-stream iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 340px;
+    margin-bottom: 20px;
+  }
+  
+  .recorded-session a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .recorded-session a:hover {
+    background-color: #0056b3;
+  }
+  
+  .interactive-qa-chat .chat-placeholder {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  

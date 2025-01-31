@@ -1,0 +1,93 @@
+.home-page-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Jumbotron Section */
+.jumbotron {
+  position: relative;
+  background-image: url('https://tii.imgix.net/production/articles/12662/722b495f-361a-4d0f-9a1d-0e70ddd1333d.png'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Black tint with 60% opacity */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.jumbotron h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.jumbotron p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/* Quick Links Section */
+.quick-links {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.quick-links h2 {
+  margin-bottom: 20px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.quick-link-btn {
+  padding: 15px 25px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quick-link-btn:hover {
+  background-color: #0056b3;
+}
+
+/* News Section */
+.news-section {
+  margin-top: 50px;
+}
+
+.news-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.news-item {
+  margin-bottom: 20px;
+}
+
+.news-item h4 {
+  font-weight: bold;
+}
+
+.news-item p {
+  margin-top: 10px;
+}
